@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "taichikj-inferobs_jd053"
+name = "taichikj-pipeline_data_skew_distribution_profile"
 version = "0.1.0"
 description = "抽取数值做分布分析，用中位数绝对偏差识别模型服务可观测性工程师·流水线的数据倾斜上的离群点"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://taichikj.github.io"
-Repository = "https://github.com/taichikj/inferobs_jd053"
-Issues = "https://github.com/taichikj/inferobs_jd053/issues"
+Repository = "https://github.com/taichikj/pipeline_data_skew_distribution_profile"
+Issues = "https://github.com/taichikj/pipeline_data_skew_distribution_profile/issues"
 
 [project.scripts]
-inferobs_jd053 = "inferobs_jd053:main"
+pipeline_data_skew_distribution_profile = "pipeline_data_skew_distribution_profile:main"
 
 [tool.setuptools]
-py-modules = ["inferobs_jd053"]
+py-modules = ["pipeline_data_skew_distribution_profile"]

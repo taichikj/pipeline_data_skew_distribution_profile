@@ -1,11 +1,11 @@
-# inferobs_jd053
+# pipeline_data_skew_distribution_profile
 
 **分析模型服务可观测性工程师·流水线的数据倾斜的数值分布并标出离群点。**
 
-`inferobs_jd053` —— 抽取数值做分布分析，用中位数绝对偏差识别模型服务可观测性工程师·流水线的数据倾斜上的离群点
+`pipeline_data_skew_distribution_profile` —— 抽取数值做分布分析，用中位数绝对偏差识别模型服务可观测性工程师·流水线的数据倾斜上的离群点
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`inferobs_jd053.py` 拷走就能用
+- 单文件，`pipeline_data_skew_distribution_profile.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install taichikj-inferobs_jd053
+pip install taichikj-pipeline_data_skew_distribution_profile
 ```
 
 装完直接用命令名调用：
 
 ```bash
-inferobs_jd053 --help
+pipeline_data_skew_distribution_profile --help
 ```
 
-也可以不用安装，直接把 `inferobs_jd053.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `pipeline_data_skew_distribution_profile.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ inferobs_jd053 --help
 ## 用法
 
 ```bash
-python inferobs_jd053.py --file input.txt
-python inferobs_jd053.py --text "示例内容"
-python inferobs_jd053.py --file input.txt --json
+python pipeline_data_skew_distribution_profile.py --file input.txt
+python pipeline_data_skew_distribution_profile.py --text "示例内容"
+python pipeline_data_skew_distribution_profile.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python inferobs_jd053.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_inferobs_jd053.py
+python test_pipeline_data_skew_distribution_profile.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_inferobs_jd053.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/taichikj/inferobs_jd053>
+- GitHub 仓库：<https://github.com/taichikj/pipeline_data_skew_distribution_profile>
 
 ---
 
@@ -79,7 +79,7 @@ python test_inferobs_jd053.py
 taichikj 做模型服务可观测性工程师·流水线的数据倾斜相关的问题，方向对标Mistral AI的初级模型服务可观测性工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://taichikj.github.io>
-- 仓库：<https://github.com/taichikj/inferobs_jd053>
+- 仓库：<https://github.com/taichikj/pipeline_data_skew_distribution_profile>
 
 ## 许可
 
